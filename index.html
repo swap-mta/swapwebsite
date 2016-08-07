@@ -1,0 +1,139 @@
+<html>
+<head>
+<link href="1.css" rel="stylesheet">
+<script>
+function validateform(){
+	var x=document.forms["myform"]["fname"].value;
+	if(x==" "||x=="NULL"){
+	alert("name must be filled out");
+	return false;
+	}
+
+}
+
+</script>
+</head>
+<body>
+<div id="corner">
+	</div>
+
+<div id="nav">
+<ul>
+<li><a href="#header">HOME</a></li>
+<li><a href="#facts">FACTS</a></li>
+<li><a href="#gallery">GALLERY</a></li>
+<li><a href="#specs">SPECS</a></li>
+<li><a href="#Plans">PLANS</a></li>
+<li><a href="#location">LOCATION</a></li>
+</ul>
+</div>
+<div id="header">
+	
+<div id="mess">
+<h1>SEND A MESSAGE</h1>
+<form name="myform" onsubmit="return validateform()" autocomplete="on" action="swap/welcome.php" method="post">
+<input type="text" name="fname" placeholder="Name" required>
+<br/><br/>
+<input type="email" name="email" placeholder="Email-id" autocomplete="off">
+<br/><br/>
+<textarea name="message" name="text">
+</textarea>
+<br/>
+<br/>
+<button type="submit" value="Submit">SEND</button>
+</form>
+</div>	
+<p id="demo"></p>
+<div id="site">
+<h2>SALARPURIA ASPIRE<br/></h2><h3>
+3 BHK APARTMENTS, 4 BHK DUPLEX & PENTHOUSE<br/>
+CLOSE TO INDIRANAGAR, OLD MADRAS ROAD, BANGALORE</h3>
+</div>
+</div>
+<div id="facts">
+<img src="images/watch.png">
+<h1>OVERVIEW</h1>
+<br/><br/>
+<p>Welcome to SALARPURIA SATTVA's ASPIRE ! Homes that come packaged for the "Very Blessed". Homes that are Vaastu designed to usher in good fortune at every turn of life. And then, there is the given from Salarpuria Sattva - plenty of light, air and space.</p>
+
+<p>The recreation spaces are well-planned and neatly tucked into convenient spaces without much utilisation of common areas so that much of the construction allows you to enjoy more space in your home.
+</p>
+<p>Designed to the specifications of global best practices with stringent environment specifications, ASPIRE promises you the "good-life" in the most "sort-after" and up-coming locations of Bangalore. In the heart of nature with open expanses , bright blue skies, amidst the bountiful goodness of nature.</p>
+
+</div>
+<div id="gallery">
+<h1>GALLERY</h1><br/>
+<ul>
+<li><img src="images/gallery/1.jpg"></li>
+<li><img src="images/gallery/2.jpg"></li>
+<li><img src="images/gallery/3.jpg"></li>
+<li><img src="images/gallery/4.jpg"></li>
+<li><img src="images/gallery/5.jpg"></li>
+</ul>
+</div>
+<div id="specs">
+
+
+<h1>SPECIFICATION</h1>
+<div id="s1">
+<a href="#s1">STRUCTURE</a>
+</div>
+<br/>
+<div id="s1">
+<a href="#s2">FLOORING</a>
+</div>
+<br/>
+<div id="s1">
+<a href="#s1">DOORS AND WINDOWS</a>
+</div>
+<br/>
+<div id="s1">
+<a href="#s1">TOILETS</a>
+</div>
+<br/>
+<div id="s1">
+<a href="#s1">ELECTRICAL</a>
+</div>
+<br/>
+<div id="s1">
+<a href="#s1">SECURITY SYSTEMS</a>
+</div>
+<br/>
+<div id="s1">
+<a href="#s1">PAINTING</a>
+</div>
+</div>
+
+<div id="Plans">
+<h1>PLANS</h1>
+
+<ul>
+<li><img id="mine" src="images/projects/a1-small.jpg"></li>
+<li><img src="images/projects/a2-small.jpg"></li>
+<li><img src="images/projects/a3-small.jpg"></li>
+<li><img src="images/projects/a4-small.jpg"></li>
+<li><img src="images/projects/a5-small.jpg"></li>
+<li><img src="images/projects/a6-small.jpg"></li>
+
+
+</ul>
+</div>
+
+<div id="location">
+<img src="images/mine.png">
+<h1>contact</h1>
+<br/>
+<h2>
+E-mail: promo@party.com<br/>
+Sattva Group - India<br/>
+4th Floor, Salarpuria Windsor, #3 Ulsoor Road<br/>
+Bangalore 560 042, Karnataka, India.<br/>
+Tel: +91 80 42699000<br/>
+Fax: +91 80 42699011<br/>
+E-mail: enquiry@sattvagroup.in</h2>
+</div>
+<div id="footer">
+<h1>Copyright @ industry cell</h1>
+</div>
+</body>
+</html>
